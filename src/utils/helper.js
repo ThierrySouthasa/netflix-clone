@@ -1,4 +1,4 @@
-import { TYPE_TV, TYPE_MOVIE } from '../config'
+import { TYPE_TV, TYPE_MOVIE } from '../utils/config'
 
 export function getRandomIntInclusive(min, max) {
     min = Math.ceil(min)

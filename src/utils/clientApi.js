@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { apiKey, lang, API_URL } from '../config'
+import { apiKey, lang, API_URL } from '../utils/config'
 
 const clientApi = endpoint => {
     const page = 1
